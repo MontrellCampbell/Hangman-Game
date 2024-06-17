@@ -1,0 +1,140 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C2E1372C2BE279190092A249 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2E137262BE279190092A249 /* Mobile App.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C2E136F92BE279170092A249;
+			remoteInfo = "Mobile App";
+		};
+		C2E1372E2BE279190092A249 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2E137262BE279190092A249 /* Mobile App.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C2E137092BE279180092A249;
+			remoteInfo = "Mobile AppTests";
+		};
+		C2E137302BE279190092A249 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2E137262BE279190092A249 /* Mobile App.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C2E137132BE279190092A249;
+			remoteInfo = "Mobile AppUITests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C24D20C72BEACCB400DA0455 /* Mobile_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Mobile_AppApp.swift; path = "Mobile App/Mobile App/Mobile_AppApp.swift"; sourceTree = "<group>"; };
+		C2E137262BE279190092A249 /* Mobile App.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Mobile App.xcodeproj"; path = "Mobile App/Mobile App.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		C2E136E92BE278E20092A249 = {
+			isa = PBXGroup;
+			children = (
+				C24D20C72BEACCB400DA0455 /* Mobile_AppApp.swift */,
+				C2E137262BE279190092A249 /* Mobile App.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		C2E137272BE279190092A249 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2E1372D2BE279190092A249 /* Mobile App.app */,
+				C2E1372F2BE279190092A249 /* Mobile AppTests.xctest */,
+				C2E137312BE279190092A249 /* Mobile AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		C2E136EA2BE278E20092A249 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1530;
+			};
+			buildConfigurationList = C2E136ED2BE278E20092A249 /* Build configuration list for PBXProject "IT358_FinalProject_MontrellCampbell" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2E136E92BE278E20092A249;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C2E137272BE279190092A249 /* Products */;
+					ProjectRef = C2E137262BE279190092A249 /* Mobile App.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C2E1372D2BE279190092A249 /* Mobile App.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Mobile App.app";
+			remoteRef = C2E1372C2BE279190092A249 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C2E1372F2BE279190092A249 /* Mobile AppTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Mobile AppTests.xctest";
+			remoteRef = C2E1372E2BE279190092A249 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C2E137312BE279190092A249 /* Mobile AppUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Mobile AppUITests.xctest";
+			remoteRef = C2E137302BE279190092A249 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin XCBuildConfiguration section */
+		C2E136EE2BE278E20092A249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C2E136EF2BE278E20092A249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2E136ED2BE278E20092A249 /* Build configuration list for PBXProject "IT358_FinalProject_MontrellCampbell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E136EE2BE278E20092A249 /* Debug */,
+				C2E136EF2BE278E20092A249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2E136EA2BE278E20092A249 /* Project object */;
+}
